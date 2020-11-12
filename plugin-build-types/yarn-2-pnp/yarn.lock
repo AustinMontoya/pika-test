@@ -1255,15 +1255,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pika/plugin-build-types@npm:0.9.2":
+"@pika/plugin-build-types@file:/Users/amon18/code/builders/packages/plugin-build-types/pkg::locator=pika-test%40workspace%3A.":
   version: 0.9.2
-  resolution: "@pika/plugin-build-types@npm:0.9.2"
+  resolution: "@pika/plugin-build-types@file:/Users/amon18/code/builders/packages/plugin-build-types/pkg#/Users/amon18/code/builders/packages/plugin-build-types/pkg::hash=4cdda9&locator=pika-test%40workspace%3A."
   dependencies:
     "@pika/types": ^0.9.2
     execa: ^2.0.0
     mkdirp: ^0.5.1
     typescript: ^3.7.0
-  checksum: d9dcfa27d3fc8c7329896aee2bc92d0e7575773876997cc679e5d206ad813cefa8f5a8eee78b4e9c60ad56ffc03d9a59719ec4ef66671ee9235b2a7da9a58625
+  checksum: 96d1bc1adc04c2d4baec052ef51aada5171e998198b6d85291d2efe71d4d15c5738f98eb0b75caff1069b5f9514aec61284435990093afbbe0b1983eeca5d18d
   languageName: node
   linkType: hard
 
@@ -3754,7 +3754,7 @@ __metadata:
   dependencies:
     "@pika/pack": ^0.5.0
     "@pika/plugin-build-node": ^0.9.2
-    "@pika/plugin-build-types": 0.9.2
+    "@pika/plugin-build-types": "file:/Users/amon18/code/builders/packages/plugin-build-types/pkg"
     "@pika/plugin-build-web": ^0.9.2
     "@pika/plugin-standard-pkg": ^0.9.2
     semver: ^7.3.2

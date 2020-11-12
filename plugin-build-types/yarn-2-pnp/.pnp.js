@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@pika/pack", "npm:0.5.0"],
             ["@pika/plugin-build-node", "npm:0.9.2"],
-            ["@pika/plugin-build-types", "npm:0.9.2"],
+            ["@pika/plugin-build-types", "file:/Users/amon18/code/builders/packages/plugin-build-types/pkg#/Users/amon18/code/builders/packages/plugin-build-types/pkg::hash=4cdda9&locator=pika-test%40workspace%3A."],
             ["@pika/plugin-build-web", "npm:0.9.2"],
             ["@pika/plugin-standard-pkg", "npm:0.9.2"],
             ["semver", "npm:7.3.2"],
@@ -1680,10 +1680,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@pika/plugin-build-types", [
-        ["npm:0.9.2", {
-          "packageLocation": "./.yarn/cache/@pika-plugin-build-types-npm-0.9.2-f90d107f82-d9dcfa27d3.zip/node_modules/@pika/plugin-build-types/",
+        ["file:/Users/amon18/code/builders/packages/plugin-build-types/pkg#/Users/amon18/code/builders/packages/plugin-build-types/pkg::hash=4cdda9&locator=pika-test%40workspace%3A.", {
+          "packageLocation": "./.yarn/cache/@pika-plugin-build-types-file-fa0e7b7d62-96d1bc1adc.zip/node_modules/@pika/plugin-build-types/",
           "packageDependencies": [
-            ["@pika/plugin-build-types", "npm:0.9.2"],
+            ["@pika/plugin-build-types", "file:/Users/amon18/code/builders/packages/plugin-build-types/pkg#/Users/amon18/code/builders/packages/plugin-build-types/pkg::hash=4cdda9&locator=pika-test%40workspace%3A."],
             ["@pika/types", "npm:0.9.2"],
             ["execa", "npm:2.1.0"],
             ["mkdirp", "npm:0.5.5"],
@@ -4473,7 +4473,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pika-test", "workspace:."],
             ["@pika/pack", "npm:0.5.0"],
             ["@pika/plugin-build-node", "npm:0.9.2"],
-            ["@pika/plugin-build-types", "npm:0.9.2"],
+            ["@pika/plugin-build-types", "file:/Users/amon18/code/builders/packages/plugin-build-types/pkg#/Users/amon18/code/builders/packages/plugin-build-types/pkg::hash=4cdda9&locator=pika-test%40workspace%3A."],
             ["@pika/plugin-build-web", "npm:0.9.2"],
             ["@pika/plugin-standard-pkg", "npm:0.9.2"],
             ["semver", "npm:7.3.2"],
