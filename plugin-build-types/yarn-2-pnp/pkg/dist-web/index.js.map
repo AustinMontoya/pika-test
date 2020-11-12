@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../dist-src/index.js"],"sourcesContent":["export class TestClass {\n  hello(world) {\n    throw new Error(\"Method not implemented.\");\n  }\n\n}"],"names":[],"mappings":"AAAO,MAAM,SAAS,CAAC;AACvB,EAAE,KAAK,CAAC,KAAK,EAAE;AACf,IAAI,MAAM,IAAI,KAAK,CAAC,yBAAyB,CAAC,CAAC;AAC/C,GAAG;AACH;AACA;;;;"}
