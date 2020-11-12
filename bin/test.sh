@@ -1,10 +1,25 @@
-set -x
+#!/bin/bash
 
+clear
+set -e
+
+echo "Testing npm..."
 cd plugin-build-types/npm
-npm install && npm run build
+npm install
+npm run build
 
+echo "
+
+
+Testing yarn classic"
 cd ../yarn-1
-yarn --frozen-lockfile && yarn build
+yarn
+yarn build
 
+echo "
+
+
+Testing yarn 2 w/ PnP"
 cd ../yarn-2-pnp
-yarn rebuild && yarn build
+yarn
+yarn build
